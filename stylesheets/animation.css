@@ -1,0 +1,171 @@
+/* бегущая строка во вступлении */
+
+@keyframes introduction {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-101%);
+    }
+}
+
+@keyframes up {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes down {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes pinky {
+    0% {
+        rotate: 0deg;
+    }
+    50% {
+        rotate: -180deg;
+    }
+    100% {
+        rotate: -360deg;
+    }
+}
+
+@keyframes punky {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+@keyframes ponky {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: -180deg;
+    }
+
+    100% {
+        rotate: -360deg;
+    }
+}
+
+@keyframes panky {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+@keyframes pynky {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: -180deg;
+    }
+
+    100% {
+        rotate: -360deg;
+    }
+}
+
+@keyframes upper {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    50% {
+        transform: translateX(0%);
+    }
+    
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+@keyframes lower {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    50% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+@keyframes rightleft {
+    0% {
+            rotate: 0deg;
+        }
+    
+        25% {
+            rotate: 90deg;
+        }
+    
+        50% {
+            rotate: 180deg;
+        }
+    
+        75% {
+            rotate: 270deg;
+        }
+    
+        100% {
+            rotate: 360deg;
+        }
+    }
+
+@keyframes rightright {
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 90deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    75% {
+        rotate: 270deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}

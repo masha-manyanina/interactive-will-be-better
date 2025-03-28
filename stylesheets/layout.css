@@ -1,3 +1,553 @@
-body {
-    background-color: cornsilk;
+* {
+    box-sizing: border-box;
+} */ html, body {
+    display: block;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    height: 100svh;
+}
+
+/* ------------------------------ бегущая строка ------------------------------ */
+.first {
+    position: relative;
+    width: 100vw;
+    height: 5.625vw;
+    background-color: #136DB9;
+    overflow: hidden;
+}
+.introduction {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    width: 171%;
+    margin-top: 5px;
+}
+.introduction p {
+    white-space: nowrap;
+    font-family: 'Futura';
+    font-size: 4.58vw;
+    font-weight: 700;
+    color: white;
+    animation: introduction 7s linear infinite;
+    width: 100%;
+    margin-left: 1%;
+}
+
+/* -------------------- верх первого экрана ---------------------- */
+.second {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    height: 29.93vw;
+}
+
+/* ------------------------------ разгрузить мысли ------------------------------ */
+.secondhalf1 {
+    position: relative;
+    width: 60.096vw;
+    height: 100%;
+    background-color: #136DB9;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.el {
+    transition: all 0.5s ease;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    width: 120vw;
+    height: 15vw;
+    animation: up 9s linear infinite;
+}
+
+.up1 {
+    width: 15vw;
+    height: 15vw;
+}
+
+.up1 img {
+    width: 7.5vw;
+    height: 15vw;
+    display: block;
+    float: left;
+
+}
+
+.up2 {
+    width: 15vw;
+    height: 15vw;
+    flex-direction: column;
+}
+
+.up2 img {
+    width: 15vw;
+    display: block;
+}
+
+.up3 {
+    width: 15vw;
+    height: 15vw;
+}
+
+.up3 img {
+    width: 7.5vw;
+    display: block;
+    float: left;
+}
+
+
+.up4 {
+    width: 15vw;
+    height: 15vw;
+    flex-direction: column;
+}
+
+.up4 img {
+    width: 15vw;
+    display: block;
+}
+
+
+.up1hello {
+    width: 15vw;
+    height: 15vw;
+}
+
+.up1hello img {
+    width: 7.5vw;
+    height: 15vw;
+    display: block;
+    float: left;
+
+}
+
+.up2hello {
+    width: 15vw;
+    height: 15vw;
+    flex-direction: column;
+}
+
+.up2hello img {
+    width: 15vw;
+    display: block;
+}
+
+.up3hello {
+    width: 15vw;
+    height: 15vw;
+}
+
+.up3hello img {
+    width: 7.5vw;
+    display: block;
+    float: left;
+}
+
+.up4hello {
+    width: 15vw;
+    height: 15vw;
+    flex-direction: column;
+}
+
+.up4hello img {
+    width: 15vw;
+    display: block;
+}
+
+
+.down {
+    display: flex;
+    flex-direction: row;
+    width: 120vw;
+    height: 15vw;
+    animation: down 9s linear infinite;
+}
+
+.down1 {
+    width: 15vw;
+    height: 15vw;
+    flex-direction: column;
+}
+
+.down1 img {
+    width: 15vw;
+    display: block;
+}
+
+.down2 {
+    width: 15vw;
+    height: 15vw;
+}
+
+.down2 img {
+    width: 7.5vw;
+    height: 15vw;
+    display: block;
+    float: left;
+
+}
+
+.down3 {
+    width: 15vw;
+    height: 15vw;
+    flex-direction: column;
+}
+
+.down3 img {
+    width: 15vw;
+    display: block;
+}
+
+.down4 {
+    width: 15vw;
+    height: 15vw;
+}
+
+.down4 img {
+    width: 7.5vw;
+    display: block;
+    float: left;
+}
+
+.down1hello {
+    width: 15vw;
+    height: 15vw;
+    flex-direction: column;
+}
+
+.down1hello img {
+    width: 15vw;
+    display: block;
+}
+
+.down2hello {
+    width: 15vw;
+    height: 15vw;
+}
+
+.down2hello img {
+    width: 7.5vw;
+    height: 15vw;
+    display: block;
+    float: left;
+
+}
+
+.down3hello {
+    width: 15vw;
+    height: 15vw;
+    flex-direction: column;
+}
+
+.down3hello img {
+    width: 15vw;
+    display: block;
+}
+
+.down4hello {
+    width: 15vw;
+    height: 15vw;
+}
+
+.down4hello img {
+    width: 7.5vw;
+    display: block;
+    float: left;
+}
+
+
+/* ------------------------------ собрать себя заново ------------------------------ */
+.secondhalf2 {
+    display: flex;
+    flex-direction: column;
+    width: 39.904vw;
+    height: 100%;
+    background-color: #93C2EA;
+}
+
+.blueup {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.bluedown {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.blueup1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blueup1 img {
+    width: 13.333vw;
+}
+
+.blueup2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blueup2 img {
+    width: 6.6665vw;
+}
+
+.blueup3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blueup3 img {
+    width: 6.6665vw;
+}
+
+.bluedown1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bluedown1 img {
+    width: 6.6665vw;
+}
+
+.bluedown2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bluedown2 img {
+    width: 13.333vw;
+}
+
+.bluedown3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bluedown3 img {
+    width: 13.333vw;
+}
+
+
+
+/* ------------------------------ увидеть краски жизни ------------------------------ */
+.third {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30vw;
+    background-color: #DAA0D4;
+}
+
+.pinkup {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 33.33%;
+}
+
+.pinkup img {
+    width: 20%;
+}
+
+.pinkdown {
+    display: flex;
+    width: 100vw;
+    height: 66.7%;
+    flex-direction: row;
+}
+
+.pinky {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    animation: pinky 3s linear infinite;
+}
+
+.pinky img {
+    width: 100%;
+    height: 50%;
+}
+
+.punky {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    animation: punky 12s linear infinite;
+}
+
+.punky img {
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+
+.ponky {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    animation: ponky 4s linear infinite;
+}
+
+.ponky img {
+    width: 100%;
+    height: 50%;
+}
+
+.panky {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    animation: panky 1.5s linear infinite;
+}
+
+.panky img {
+    width: 100%;
+    height: 50%;
+}
+
+.pynky {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    animation: pynky 2s linear infinite;
+}
+
+.pynky img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+.forth {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30vw;
+}
+
+/* ------------------------------ посмотреть на мир иначе ------------------------------ */
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 100%;
+    background-color: #93C2EA;
+    overflow: hidden;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+
+    animation: upper 1.3s cubic-bezier(0.69, -0.19, 0.51, 0.31) infinite;
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    animation: lower 0.7s cubic-bezier(0.69, -0.19, 0.51, 0.31) infinite;
+}
+
+
+
+
+
+/* ------------------------------ взрастить уверенность в себе ------------------------------ */
+.right {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: 100%;
+    background-color: #136DB9;
+}
+
+.rightleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    animation: rightleft 3s steps(4) infinite;
+}
+
+.rightleft img {
+    width: 16vw;
+    height: 16vw;
+}
+
+.rightleft img:hover {
+    width: 23vw;
+    height: 23vw;
+}
+
+.rightright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    animation: rightright 3s steps(4) infinite;
+}
+
+.rightright img {
+    width: 16vw;
+    height: 16vw;
+}
+
+.rightright img:hover {
+    width: 23vw;
+    height: 23vw;
+}
+
+.grow {
+        transition: all 0.5s ease;
+}
+
+
+
+/* ------------------------------ стать новой личностью ------------------------------ */
+.fifth {
+    position: relative;
+    width: 100%;
+    height: 49vw;
+    background-color: #DAA0D4;
+}
+
+
+
+/* ------------------------------ получить ответы ------------------------------ */
+.sixth {
+    position: relative;
+    width: 100%;
+    height: 41.3vw;
+    background-color: #136DB9;
 }
