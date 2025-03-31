@@ -465,8 +465,8 @@
                         }
             
                         .rightleft img:hover {
-                            width: 40vw;
-                            height: 40vw;
+                            width: 33vw;
+                            height: 33vw;
                         }
             
                         .rightright {
@@ -484,8 +484,8 @@
                         }
             
                         .rightright img:hover {
-                            width: 40vw;
-                            height: 40vw;
+                            width: 33vw;
+                            height: 33vw;
                         }
 
                 .fifth {
@@ -507,106 +507,106 @@
         
                 .head2 {
                     position: absolute;
-                    width: 3.819vw;
-                    height: 7.639vw;
-                    margin-top: 36.736vw;
-                    margin-left: 18.47vw;
+                    width: 8.26vw;
+                    height: 16.52vw;
+                    margin-top: 16vw;
+                    margin-left: 35vw;
                 }
         
                 .hand1 {
                     position: absolute;
-                    width: 5.10139vw;
-                    height: 8.9326vw;
-                    margin-top: 34.306vw;
-                    margin-left: 37.29vw;
+                    width: 11vw;
+                    height: 19.3vw;
+                    margin-top: 41.3vw;
+                    margin-left: 5.6vw;
                 }
         
                 .hand2 {
                     position: absolute;
-                    width: 3.9180vw;
-                    height: 8.20625vw;
-                    margin-top: 36.5vw;
-                    margin-left: 29.86vw;
+                    width: 8.5vw;
+                    height: 17.75vw;
+                    margin-top: 14.45vw;
+                    margin-left: 48vw;
                 }
         
                 .hand3 {
                     position: absolute;
-                    width: 5.10139vw;
-                    height: 8.9326vw;
-                    margin-top: 30.417vw;
-                    margin-left: 23.819vw;
+                    width: 11vw;
+                    height: 19.3vw;
+                    margin-top: 36.5vw;
+                    margin-left: 38.6vw;
                 }
         
                 .hand4 {
                     position: absolute;
-                    width: 3.9180vw;
-                    height: 8.20625vw;
-                    margin-top: 5.069vw;
-                    margin-left: 37.292vw;
+                    width: 8.5vw;
+                    height: 17.75vw;
+                    margin-top: 58.7vw;
+                    margin-left: 48vw;
                 }
         
                 .body1 {
                     position: absolute;
-                    width: 13.363vw;
-                    height: 6vw;
-                    margin-top: 24.93vw;
-                    margin-left: 9.3vw;
+                    width: 28.9vw;
+                    height: 13vw;
+                    margin-top: 15vw;
+                    margin-left: 65vw;
                 }
         
                 .body2 {
                     position: absolute;
-                    width: 11.103vw;
-                    height: 5.97vw;
-                    margin-top: 17.083vw;
-                    margin-left: 9.17vw;
+                    width: 22vw;
+                    height: 22vw;
+                    margin-top: 59vw;
+                    margin-left: 7.3vw;
                 }
         
                 .body3 {
                     position: absolute;
-                    width: 11.103vw;
-                    height: 12vw;
-                    margin-top: 32.8vw;
-                    margin-left: 7.2vw;
+                    width: 13vw;
+                    height: 26vw;
+                    margin-top: 50.5vw;
+                    margin-left: 80vw;
                 }
         
                 .body4 {
                     position: absolute;
-                    width: 11.103vw;
-                    height: 10.4vw;
-                    margin-top: 17vw;
-                    margin-left: 23vw;
+                    width: 13vw;
+                    height: 22.5vw;
+                    margin-top: 31vw;
+                    margin-left: 74vw;
                 }
         
                 .leg1 {
                     position: absolute;
-                    width: 7.15vw;
-                    height: 10.4vw;
-                    margin-top: 5.83vw;
-                    margin-left: 9.5vw;
+                    width: 17vw;
+                    height: 22.5vw;
+                    margin-top: 13vw;
+                    margin-left: 11vw;
                 }
         
                 .leg2 {
                     position: absolute;
-                    width: 7.15vw;
-                    height: 10.4vw;
-                    margin-top: 24.9vw;
-                    margin-left: 30.8vw;
+                    width: 15.5vw;
+                    height: 22.5vw;
+                    margin-top: 34.8vw;
+                    margin-left: 54.8vw;
                 }
         
                 .leg3 {
                     position: absolute;
-                    width: 7.15vw;
-                    height: 10.4vw;
-                    margin-top: 5.07vw;
-                    margin-left: 26.8vw;
+                    width: 17vw;
+                    height: 22.5vw;
+                    margin-top: 54vw;
+                    margin-left: 59.5vw;
                 }
         
                 .leg4 {
                     position: absolute;
-                    width: 7.15vw;
-                    height: 10.4vw;
-                    margin-top: 15.7vw;
-                    margin-left: 36vw;
+                    width: 15.5vw;
+                    height: 22.5vw;
+                    margin-top: 37.8vw;
+                    margin-left: 18.6vw;
                 }
         
         
@@ -644,7 +644,7 @@
         .sixth {
             display: flex;
             width: 100%;
-            height: 165vw;
+            height: 148vw;
             background-color: #136DB9;
             flex-direction: column;
         }
@@ -676,5 +676,338 @@
             display: none;
         }
 
-    
+                .flowers2 {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: 31vw;
+                }
+        
+                .flowers2up {
+                    display: none;
+  
+                }
+
+                .flowers2down {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    width: 100%;
+                    height: 50%;
+                }
+        
+                .flowers2down img {
+                    width: 12.4vw;
+                    height: 24.8vw;
+                }
+
+
+
+                .flower {
+                    position: relative;
+                    width: 100%;
+                    height: 86vw;
+                }
+                
+                .flower img {
+                    position: absolute;
+                    width: 12.4vw;
+                    height: 24.8vw;
+                }
+
+                                .ser1 {
+                                    rotate: 45deg;
+                                    margin-top: 29.6vw;
+                                    margin-left: 38vw;
+                                }
+                
+                                .ser2 {
+                                    rotate: -135deg;
+                                    margin-top: 38vw;
+                                    margin-left: 47vw;
+                                }
+
+                                .twosloy1 {
+                                    rotate: 45deg;
+                                    margin-top: 21vw;
+                                    margin-left: 28.5vw;
+                                }
+                
+                                .twosloy2 {
+                                    rotate: 135deg;
+                                    margin-top: 21vw;
+                                    margin-left: 57vw;
+                                }
+                
+                                .twosloy3 {
+                                    rotate: -135deg;
+                                    margin-top: 48vw;
+                                    margin-left: 57vw;
+                                }
+                
+                                .twosloy4 {
+                                    rotate: -45deg;
+                                    margin-top: 48vw;
+                                    margin-left: 28.5vw;
+                                }
+
+
+                                                        .threesloy1 {
+                                                            rotate: 90deg;
+                                                            margin-top: 6vw;
+                                                            margin-left: 42.75vw;
+                                                        }
+                            
+                                                        .threesloy2 {
+                                                            rotate: -90deg;
+                                                            margin-top: 63vw;
+                                                            margin-left: 42.75vw;
+                                                        }
+                            
+                                                        .threesloy3 {
+                                                            rotate: 0deg;
+                                                            margin-top: 35vw;
+                                                            margin-left: 13vw;
+                                                        }
+                            
+                                                        .threesloy4 {
+                                                            rotate: 180deg;
+                                                            margin-top: 35vw;
+                                                            margin-left: 72.5vw;
+                                                        }
+                            
+                                                        .threesloy5 {
+                                                            rotate: 45deg;
+                                                            margin-top: 11vw;
+                                                            margin-left: 18vw;
+                                                        }
+                            
+                                                        .threesloy6 {
+                                                            rotate: 135deg;
+                                                            margin-top: 11vw;
+                                                            margin-left: 67.5vw;
+                                                        }
+                            
+                                                        .threesloy7 {
+                                                            rotate: -45deg;
+                                                            margin-top: 59.5vw;
+                                                            margin-left: 18.5vw;
+                                                        }
+                            
+                                                        .threesloy8 {
+                                                            rotate: -135deg;
+                                                            margin-top: 59.5vw;
+                                                            margin-left: 67.5vw;
+                                                        }
+
+                                        .flower p {
+                                            margin-top: 30%;
+                                            margin-left: 5%;
+                                            font-family: 'Futura';
+                                            font-size: 7vw;
+                                            font-weight: 700;
+                                            color: #136DB9;
+                                            transition: all 0.8s ease;
+                                            text-align: center;
+                                            line-height: 120%;
+                                            width: 90vw;
+                                        }
+
+
+                                .seventh {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    /* justify-content: space-between; */
+                                    align-items: end;
+                                    padding: 3vw;
+                                    width: 100vw;
+                                    height: 32vw;
+                                    background-color: #136DB9;
+                                    font-family: 'Futura';
+                                    font-size: 6vw;
+                                    font-weight: 700;
+                                    color: white;
+                
+                                }
+.help-container {
+    position: absolute;
+    /* flex-direction: row-reverse; */
+    padding: 1.5vw;
+    z-index: 2;
+    gap: 1.5vw;
+}
+
+.help-button img {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 88vw;
+    cursor: pointer;
+}
+
+.help-text.help1 {
+    display: none;
+}
+
+.help-text img {
+    width: 58.75vw;
+    height: 23vw;
+    margin-left: 27vw;
+    margin-top: -7vw;
+}
+
+.help-text.visible {
+    display: block;
+}
+
+.help-button2 img {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 89vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+.help-text2.help2 {
+    display: none;
+}
+
+.help-text2 img {
+    width: 58.75vw;
+    height: 23vw;
+    margin-left: 28vw;
+    margin-top: -7vw;
+}
+
+.help-text2.visible {
+    display: block;
+}
+
+
+
+.help-button3 img {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 89vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+.help-text3.help3 {
+    display: none;
+}
+
+.help-text3 img {
+    width: 58.75vw;
+    height: 23vw;
+    margin-left: 31vw;
+    margin-top: -7vw;
+}
+
+.help-text3.visible {
+    display: block;
+}
+
+.help-container4 {
+    position: absolute;
+    padding: 0.28vw;
+    z-index: 2;
+    gap: 0.28vw;
+}
+
+.help-button4 img {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 89vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+.help-text4.help4 {
+    display: none;
+}
+
+.help-text4 img {
+    width: 58.75vw;
+    height: 23vw;
+    margin-left: 28vw;
+    margin-top: -10vw;
+}
+
+.help-text4.visible {
+    display: block;
+}
+
+
+
+
+.help-button5 img {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 89vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+.help-text5.help5 {
+    display: none;
+}
+
+.help-text5 img {
+    width: 58.75vw;
+    height: 23vw;
+    margin-left: 28vw;
+    margin-top: -7vw;
+}
+
+.help-text5.visible {
+    display: block;
+}
+
+
+.help-button6 img {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 89vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+.help-text6.help6 {
+    display: none;
+}
+
+.help-text6 img {
+    width: 58.75vw;;
+    height: 23vw;
+    margin-left: 28vw;
+    margin-top: -9vw;
+}
+
+.help-text6.visible {
+    display: block;
+}
+
+
+.help-button7 img {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 89vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+.help-text7.help7 {
+    display: none;
+}
+
+.help-text7 img {
+    width: 58.75vw;
+    height: 23vw;
+    margin-left: 34vw;
+    margin-top: -7vw;
+}
+
+.help-text7.visible {
+    display: block;
+}
+                                
 }
