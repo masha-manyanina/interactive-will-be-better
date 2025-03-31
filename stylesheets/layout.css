@@ -44,6 +44,7 @@
 }
 
 /* ------------------------------ разгрузить мысли ------------------------------ */
+
 .secondhalf1 {
     position: relative;
     width: 60.096vw;
@@ -261,6 +262,40 @@
 }
 
 
+.help-container {
+    position: absolute;
+    /* flex-direction: row-reverse; */
+    padding: 0.28vw;
+    z-index: 2;
+    gap: 0.28vw;
+}
+
+.help-button img {
+    width: 2.083vw;
+    height: 2.083vw;
+    margin-left: 57.5vw;
+    cursor: pointer;
+}
+
+.help-text.help1 {
+    display: none;
+}
+
+.help-text img {
+    width: 23.194vw;
+    height: 8.75vw;
+    margin-left: 34vw;
+    margin-top: -2.4vw;
+}
+
+.help-text.visible {
+    display: block;
+}
+
+
+
+
+
 /* ------------------------------ собрать себя заново ------------------------------ */
 .secondhalf2 {
     display: flex;
@@ -269,6 +304,11 @@
     height: 100%;
     background-color: #93C2EA;
 }
+
+/* .secondhalf2 img {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+} */
 
 .blueup {
     display: flex;
@@ -344,6 +384,35 @@
     width: 13.333vw;
 }
 
+
+.help-container2 {
+    position: absolute;
+    padding: 0.28vw;
+    z-index: 2;
+    gap: 0.28vw;
+}
+
+.help-button2 img {
+    width: 2.083vw;
+    height: 2.083vw;
+    margin-left: 37.3vw;
+    cursor: pointer;
+}
+
+.help-text2.help2 {
+    display: none;
+}
+
+.help-text2 img {
+    width: 24.3vw;
+    height: 9.58vw;
+    margin-left: 12.96vw;
+    margin-top: -2.25vw;
+}
+
+.help-text2.visible {
+    display: block;
+}
 
 
 /* ------------------------------ увидеть краски жизни ------------------------------ */
@@ -441,6 +510,35 @@
 
 
 
+.help-container3 {
+    position: absolute;
+    padding: 0.28vw;
+    z-index: 2;
+    gap: 0.28vw;
+}
+
+.help-button3 img {
+    width: 2.083vw;
+    height: 2.083vw;
+    margin-left: 97.3vw;
+    cursor: pointer;
+}
+
+.help-text3.help3 {
+    display: none;
+}
+
+.help-text3 img {
+    width: 24.3vw;
+    height: 10.86vw;
+    margin-left: 72.72vw;
+    margin-top: -2.4vw;
+}
+
+.help-text3.visible {
+    display: block;
+}
+
 
 
 .forth {
@@ -478,6 +576,34 @@
 }
 
 
+.help-container4 {
+    position: absolute;
+    padding: 0.28vw;
+    z-index: 2;
+    gap: 0.28vw;
+}
+
+.help-button4 img {
+    width: 2.083vw;
+    height: 2.083vw;
+    margin-left: 37.3vw;
+    cursor: pointer;
+}
+
+.help-text4.help4 {
+    display: none;
+}
+
+.help-text4 img {
+    width: 30.57vw;
+    height: 9vw;
+    margin-left: 6.3vw;
+    margin-top: -2.25vw;
+}
+
+.help-text4.visible {
+    display: block;
+}
 
 
 
@@ -532,6 +658,35 @@
         transition: all 0.5s ease;
 }
 
+.help-container5 {
+    position: absolute;
+    padding: 0.28vw;
+    z-index: 2;
+    gap: 0.28vw;
+}
+
+.help-button5 img {
+    width: 2.083vw;
+    height: 2.083vw;
+    margin-left: 57.3vw;
+    cursor: pointer;
+}
+
+.help-text5.help5 {
+    display: none;
+}
+
+.help-text5 img {
+    width: 28.7vw;
+    height: 10.75vw;
+    margin-left: 28.5vw;
+    margin-top: -2.3vw;
+}
+
+.help-text5.visible {
+    display: block;
+}
+
 
 
 /* ------------------------------ стать новой личностью ------------------------------ */
@@ -539,15 +694,411 @@
     position: relative;
     width: 100%;
     height: 49vw;
-    background-color: #DAA0D4;
+    /* background-color: #DAA0D4; */
+    background-image: url(../images/fon.svg);
+    background-size: cover;
 }
 
+.head1 {
+    position: absolute;
+    width: 3.819vw;
+    height: 7.639vw;
+    margin-top: 5.625vw;
+    margin-left: 19.375vw;
+}
+
+.head2 {
+    position: absolute;
+    width: 3.819vw;
+    height: 7.639vw;
+    margin-top: 36.736vw;
+    margin-left: 18.47vw;
+}
+
+.hand1 {
+    position: absolute;
+    width: 5.10139vw;
+    height: 8.9326vw;
+    margin-top: 34.306vw;
+    margin-left: 37.29vw;
+}
+
+.hand2 {
+    position: absolute;
+    width: 3.9180vw;
+    height: 8.20625vw;
+    margin-top: 36.5vw;
+    margin-left: 29.86vw;
+}
+
+.hand3 {
+    position: absolute;
+    width: 5.10139vw;
+    height: 8.9326vw;
+    margin-top: 30.417vw;
+    margin-left: 23.819vw;
+}
+
+.hand4 {
+    position: absolute;
+    width: 3.9180vw;
+    height: 8.20625vw;
+    margin-top: 5.069vw;
+    margin-left: 37.292vw;
+}
+
+.body1 {
+    position: absolute;
+    width: 13.363vw;
+    height: 6vw;
+    margin-top: 24.93vw;
+    margin-left: 9.3vw;
+}
+
+.body2 {
+    position: absolute;
+    width: 11.103vw;
+    height: 5.97vw;
+    margin-top: 17.083vw;
+    margin-left: 9.17vw;
+}
+
+.body3 {
+    position: absolute;
+    width: 11.103vw;
+    height: 12vw;
+    margin-top: 32.8vw;
+    margin-left: 7.2vw;
+}
+
+.body4 {
+    position: absolute;
+    width: 11.103vw;
+    height: 10.4vw;
+    margin-top: 17vw;
+    margin-left: 23vw;
+}
+
+.leg1 {
+    position: absolute;
+    width: 7.15vw;
+    height: 10.4vw;
+    margin-top: 5.83vw;
+    margin-left: 9.5vw;
+}
+
+.leg2 {
+    position: absolute;
+    width: 7.15vw;
+    height: 10.4vw;
+    margin-top: 24.9vw;
+    margin-left: 30.8vw;
+}
+
+.leg3 {
+    position: absolute;
+    width: 7.15vw;
+    height: 10.4vw;
+    margin-top: 5.07vw;
+    margin-left: 26.8vw;
+}
+
+.leg4 {
+    position: absolute;
+    width: 7.15vw;
+    height: 10.4vw;
+    margin-top: 15.7vw;
+    margin-left: 36vw;
+}
+
+
+.help-container6 {
+    position: absolute;
+    padding: 0.28vw;
+    z-index: 2;
+    gap: 0.28vw;
+}
+
+.help-button6 img {
+    width: 2.083vw;
+    height: 2.083vw;
+    margin-left: 97.3vw;
+    cursor: pointer;
+}
+
+.help-text6.help6 {
+    display: none;
+}
+
+.help-text6 img {
+    width: 27.9vw;
+    height: 8.75vw;
+    margin-left: 69vw;
+    margin-top: -2.3vw;
+}
+
+.help-text6.visible {
+    display: block;
+}
 
 
 /* ------------------------------ получить ответы ------------------------------ */
 .sixth {
-    position: relative;
+    display: flex;
     width: 100%;
-    height: 41.3vw;
+    height: 36.736vw;
     background-color: #136DB9;
+    flex-direction: row;
+}
+
+.flowers1 {
+    display: flex;
+    flex-direction: column;
+    width: 24.32vw;
+    height: 100%;
+}
+
+
+.flower1up {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.flowers1up img {
+    width: 6.08vw;
+    height: 12.16vw;
+    margin-top: 1.6vw;
+    float: left;
+}
+
+
+.flowers1down {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.flowers1down img {
+    width: 6.08vw;
+    height: 12.16vw;
+    margin-top: 10.5vw;
+}
+
+
+
+.flowerimg2 {
+    display: none;
+}
+
+
+.flower {
+    position: relative;
+    width: 51vw;
+    height: 100%;
+}
+
+.flower img {
+    position: absolute;
+    width: 6.08vw;
+    height: 12.16vw;
+}
+
+.ser1 {
+    rotate: 45deg;
+    margin-top: 10.9vw;
+    margin-left: 20.79vw;
+}
+
+.ser2 {
+    rotate: -135deg;
+    margin-top: 15vw;
+    margin-left: 25vw;
+}
+
+.twosloy1 {
+    rotate: 45deg;
+    margin-top: 6.5vw;
+    margin-left: 16.3vw;
+}
+
+.twosloy2 {
+    rotate: 135deg;
+    margin-top: 6.5vw;
+    margin-left: 29.5vw;
+}
+
+.twosloy3 {
+    rotate: -135deg;
+    margin-top: 19.5vw;
+    margin-left: 29.5vw;
+}
+
+.twosloy4 {
+    rotate: -45deg;
+    margin-top: 19.5vw;
+    margin-left: 16.3vw;
+}
+
+.threesloy1 {
+    rotate: 90deg;
+    margin-top: -1.5vw;
+    margin-left: 22.6vw;
+}
+
+.threesloy2 {
+    rotate: -90deg;
+    margin-top: 27.125vw;
+    margin-left: 22.6vw;
+}
+
+.threesloy3 {
+    rotate: 0deg;
+    margin-top: 12.5vw;
+    margin-left: 8.8vw;
+}
+
+.threesloy4 {
+    rotate: 180deg;
+    margin-top: 12.5vw;
+    margin-left: 37vw;
+}
+
+.threesloy5 {
+    rotate: 45deg;
+    margin-top: 0.5vw;
+    margin-left: 10.5vw;
+}
+
+.threesloy6 {
+    rotate: 135deg;
+    margin-top: 0.5vw;
+    margin-left: 34.7vw;
+}
+
+.threesloy7 {
+    rotate: -45deg;
+    margin-top: 24.5vw;
+    margin-left: 10.3vw;
+}
+
+.threesloy8 {
+    rotate: -135deg;
+    margin-top: 24.5vw;
+    margin-left: 35vw;
+}
+
+
+
+.flower p {
+    margin-top: 30%;
+    margin-left: 20%;
+    font-family: 'Futura';
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: #136DB9;
+    transition: all 0.8s ease;
+    text-align: center;
+    line-height: 120%;
+    width: 30vw;
+}
+
+
+
+
+.flowers2 {
+    display: flex;
+    flex-direction: column;
+    width: 24.32vw;
+    height: 100%;
+}
+
+.flowers2up {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.flowers2up img {
+    width: 6.08vw;
+    height: 12.16vw;
+    margin-top: 1.6vw;
+}
+
+.flowers2down {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.flowers2down img {
+    width: 6.08vw;
+    height: 12.16vw;
+    margin-top: 6vw;
+}
+
+
+.help-container7 {
+    position: absolute;
+    padding: 0.28vw;
+    z-index: 2;
+    gap: 0.28vw;
+}
+
+.help-button7 img {
+    width: 2.083vw;
+    height: 2.083vw;
+    margin-left: 97.3vw;
+    cursor: pointer;
+}
+
+.help-text7.help7 {
+    display: none;
+}
+
+.help-text7 img {
+    width: 23.75vw;
+    height: 12.15vw;
+    margin-left: 73vw;
+    margin-top: -2.3vw;
+}
+
+.help-text7.visible {
+    display: block;
+}
+
+
+/* ------------------------------ подвал ------------------------------ */
+
+.seventh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    padding: 1.5vw;
+    width: 100vw;
+    height: 4.65vw;
+    background-color: #136DB9;
+    font-family: 'Futura';
+    font-size: 1.9vw;
+    font-weight: 700;
+    color: white;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.seventh p:hover {
+    color: #DAA0D4;
+}
+
+
+img:hover {
+    cursor: grab;
 }
